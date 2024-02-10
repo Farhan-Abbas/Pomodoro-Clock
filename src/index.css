@@ -66,3 +66,40 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Desktop */
+@media (min-width: 1025px) {
+  h1 {
+    font-size: 3.2em;
+  }
+
+  button {
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+  }
+}
+
+/* Tablet */
+@media (min-width: 468px) and (max-width: 1024px) {
+  h1 {
+    font-size: 2.4em;
+  }
+
+  button {
+    padding: 0.5em 1em;
+    font-size: 0.9em;
+  }
+}
+
+/* Mobile */
+@media (max-width: 467px) {
+  h1 {
+    font-size: 1.6em;
+  }
+
+  button {
+    padding: 0.4em 0.8em;
+    font-size: 0.8em;
+  }
+}
+
