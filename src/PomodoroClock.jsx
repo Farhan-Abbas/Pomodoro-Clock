@@ -49,7 +49,6 @@ export default function PomodoroClock() {
 	return (
 		<div
 			style={{
-				padding: "0px 15px",
 				backgroundColor: "#F1F2F0",
 				opacity: "0.7",
 			}}
